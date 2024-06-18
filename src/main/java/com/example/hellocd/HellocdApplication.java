@@ -7,18 +7,19 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@RestController
-@EnableAutoConfiguration
 public class HellocdApplication {
 
 
-		@RequestMapping("/")
-			String home() {
-						return "Hello Continious Delivery!";
-							}
+	@RequestMapping("/")
+	String home() {
+		return "Hello World!";
+	}
 
-			public static void main(String[] args) {
-						SpringApplication.run(HellocdApplication.class, args);
-							}
+	public static void main(String[] args) {
+		SpringApplication.run(HellocdApplication.class, args);
+	}
 
 }
+							}
+
+
